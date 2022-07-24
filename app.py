@@ -8,8 +8,8 @@ st.write("""
 
 st.header('User Input Parameters')
 
-numerator = st.number_input("Numerator",step=1)
-denominator = st.number_input("Denominator",step=1)
+numerator = st.number_input("Numerator")
+denominator = st.number_input("Denominator")
 
 st.subheader('Result')
 if denominator == 0:
